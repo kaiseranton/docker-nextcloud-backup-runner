@@ -1,5 +1,5 @@
 FROM alpine:3.20
-RUN apk add --no-cache bash docker-cli tar gzip rsync findutils util-linux rclone
+RUN apk add --no-cache bash docker-cli tar gzip rsync findutils util-linux rclone curl
 
 
 WORKDIR /app
